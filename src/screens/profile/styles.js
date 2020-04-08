@@ -7,6 +7,7 @@ const deviceHeight = (Dimensions.get('window').height);
 const deviceWidth = (Dimensions.get('window').width);
 
 export const Container = styled.View`
+  flex: 1;
   justify-content: flex-start;
   height: ${deviceHeight}px;
   flex-direction: column;

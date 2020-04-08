@@ -5,6 +5,7 @@ import globalColors from '~/config/Colors';
 const deviceWidth = (Dimensions.get('window').width);
 
 export const Container = styled.View`
+  margin-top: 5px;
   justify-content: center;
   flex-direction: column;
   align-items: center;

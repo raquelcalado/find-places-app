@@ -6,6 +6,7 @@ const deviceHeight = (Dimensions.get('window').height);
 const deviceWidth = (Dimensions.get('window').width);
 
 export const Container = styled.View`
+  flex: 1;
   justify-content: flex-start;
   height: ${deviceHeight}px;
   flex-direction: column;
@@ -14,7 +15,7 @@ export const Container = styled.View`
 
 export const MapView = styled(mapView)`
   width: ${deviceWidth}px;
-  height: ${deviceHeight * 0.9}px;
+  height: ${deviceHeight * 0.85}px;
   position: absolute;
   top: 0;
   left: 0;
