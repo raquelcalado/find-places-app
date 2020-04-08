@@ -18,10 +18,13 @@ npm i
 Adicione a chave do google places em:
 
 android/app/src/main/AndroidManifest.xml
+
 android:value="YOUR_KEY"
 
 
+
 src/config/Constants.js
+
 export const apiKey = 'YOUR_KEY';
 
 
