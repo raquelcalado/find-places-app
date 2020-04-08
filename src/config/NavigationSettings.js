@@ -75,9 +75,6 @@ const Navigator = createStackNavigator({
 }, {
   headerMode: 'screen',
   mode: 'modal',
-  headerStyle: {
-    backgroundColor: 'red',
-  },
 });
 
 export default createAppContainer(Navigator);
