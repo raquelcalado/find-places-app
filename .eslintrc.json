@@ -1,0 +1,50 @@
+{
+  "env": {
+      "browser": true,
+      "es6": true,
+      "node": true,
+      "jest/globals": true
+  },
+  "extends": [
+      "airbnb",
+      "plugin:react-native/all",
+      "prettier/react"
+  ],
+  "parser": "babel-eslint",
+  "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly",
+      "__DEV__": true
+  },
+  "parserOptions": {
+      "ecmaFeatures": {
+          "jsx": true
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+  },
+  "plugins": [
+      "react",
+      "react-native",
+      "import",
+      "jsx-a11y", 
+      "prettier",
+      "jest"
+  ],
+  "rules": {
+    "react/prop-types": ["error", { "ignore": ["navigation"] }],
+    "react/jsx-filename-extension": [
+      "error",
+      { "extensions": [".js", ".jsx"] }
+    ],
+    "react/jsx-props-no-spreading": "off",
+    "react/forbid-prop-types": "off",
+    "react-native/no-raw-text": "off",
+    "no-sequences": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-plugin-root-import": { "rootPathSuffix": "src" }
+    }
+  }
+}
