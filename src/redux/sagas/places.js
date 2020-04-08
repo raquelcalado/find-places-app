@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 import { call, put } from 'redux-saga/effects';
 import placesApi from '~/services/googleplaces-api';
 import { Creators as PlacesActions } from '../ducks/places';

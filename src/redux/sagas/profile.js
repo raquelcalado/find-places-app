@@ -1,4 +1,4 @@
-/* eslint-disable import/prefer-default-export */
+/* eslint-disable  */
 import { call, put } from 'redux-saga/effects';
 import reqresApi from '~/services/reqres-api';
 import { Creators as ProfileActions } from '../ducks/profile';

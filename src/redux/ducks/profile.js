@@ -27,7 +27,7 @@ const INITIAL_STATE = {
   error: null,
 };
 
-export default function Places(state = INITIAL_STATE, action) {
+export default function Profile(state = INITIAL_STATE, action) {
   switch (action.type) {
     case Types.LOGIN_REQUEST:
       return { ...state, logging_in: true };
